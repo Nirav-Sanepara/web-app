@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Mulish:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.navbar-brand{
+    font-size: x-large !important;
+    color: brown !important;
+}
+
+.card img{
+    height: 300px;
+}
+
+
+
+
+
+.menu_active{
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: 1px solid #565383;
+}
+
+#header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 70px;
+}
+
+#header h1{
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+
+#header .brand-name{
+    color: #105b8d;
+}
+
+#header .animated{
+    animation: up-down 3s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
