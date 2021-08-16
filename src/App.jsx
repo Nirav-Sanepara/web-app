@@ -1,6 +1,5 @@
 import React from 'react'
-import "D:/rtut/n1app/node_modules/bootstrap/dist/css/bootstrap.min.css"
-import "D:/rtut/n1app/node_modules/bootstrap/dist/js/bootstrap.bundle"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
