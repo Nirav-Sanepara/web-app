@@ -22,6 +22,12 @@ const Contact = () => {
     const formSubmit = (e) => {
         e.preventDefault();
         alert(`My name is ${data.fullname}. My phone no. is ${data.phone}. My email is ${data.email}.My message is ${data.msg}.`);
+        setData({
+            fullname: "",
+            phone: "",
+            email: "",
+            msg: "",
+        })
     }
 
     return (
