@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Common = (props) => {
 
@@ -13,7 +14,7 @@ const Common = (props) => {
                                     <h1>{props.name} <br /><strong className="brand-name">Nirav</strong></h1>
                                     <h2 className="my-3">We are the team of telented for making Web</h2>
                                     <div className="mt-3">
-                                        <a href={props.visit} className="btn btn-outline-primary rounded-pill btn-lg" role="button" aria-pressed="true">{props.btnname}</a>
+                                        <NavLink to={props.visit} className="btn btn-outline-primary rounded-pill btn-lg" role="button" aria-pressed="true">{props.btnname}</NavLink>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 order-1 order-lg-2 header-img mt-5">
